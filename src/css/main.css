@@ -108,3 +108,42 @@ width: 1312px;
     height: 418px;
 }
 }
+/* How to Play */
+.how-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.how-list{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.how-item{
+    display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+        font-size: 16px;
+        width: 320px;
+}
+.desk{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+    .desk{
+        display: block;
+    }
+.how-list {
+    margin-top: 64px;
+    flex-direction: row;
+    margin-bottom: 64px;
+}
+.how-item{
+    width: 230px;
+    font-size: 18px;
+}
+}
