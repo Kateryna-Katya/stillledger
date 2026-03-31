@@ -14,51 +14,28 @@
         rel="stylesheet">
     <title>Bounty Match</title>
     <script type="module" crossorigin src="/stillledger/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/stillledger/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/stillledger/assets/styles-4uTVZnxP.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container home-container">
+        <div class="home-wrapper">
+            <h1 class="home-title">Bounty Match</h1>
+            <p class="home-text">Chill out with puzzles while<br class="mob"/> exploring your own tropical paradise.</p>
+            <a class="home-link" href="https://play.google.com/store/apps/details?id=com.PuzzlePoint.BountyMatch&hl=en&gl=us">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAiCAYAAABIiGl0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAAqtJREFUeAG1ls9r02AYx58nTbdamHrZ3DxIh/9AhXlT1k4EvSlORAZacR68rUcv2h5EBMHt5MHD2pMiiD16sCTFHcR1bAfxBwwaPDgQ0bhu7VyTPL5vXWfatU3eLP1Aad7kCZ/n++QHQWCMPZuMAdI9thlDII0AcjJZc++u5jToEXjyxeUoWdbyngOsAURMvb/yMgs9AMeeX1LYf6xjAWsgQFbc7/Q4/ugjVY4+AJIq3QuBMqyBtF8NSIE/xyD87Q6gFe5aSIAJEyWF3Q8p8AGcuL9BfMPs/wpuktdP8uH674pF5TsNeB6/ZF/wsff/mAK38PEbGCh5GX9T4gbbAwuwNfQURBAdv9RuZ1/5FIS+3wIRWPqIRZDhj+eTV9GIU73U6YAXOWc6/Dk2PfChVMvLj6tKKAKiYi9yJoWb4S//FgQzActUDCV4XVgsIm+S7oBEETIps50PllrTO4rdyNtJWxuQTaPEGphvNOBK3E3uJG1pIMHHz+Wuxe3kIlKbnKefFxI35P0/L3iS2ogKizlTS7/Zbx32wWEZBBlfew2TWhaq2nB9HTq9Bh7ICYm59Panh7vr6oK4nNir1ayZSdejbpXa5VtvR8AlKpPGD5wHzVXiTlK7nNMpOU+JEiaCE0ahsc9R7CTtLicdEGf7zpjp1nrZD2lbOcKsvG6m8SLo7Wplv6T/5UfU0PFyKnhNL3Srk/2TsrECzQzll7KQd66W/JASUWrTNEbrUpc0JY6UVwWlpJqmcWNEXdFAENkuvbucdHUSEWgSQWJQKRbAI5JdGjY2HMpJ52OtWLUTg8qiZylHdi1lH3KblpEcVVd08AFcPXdWOVjTY51LSEULU/tN2Ip8yPiVZp+msTZC3QJMDeeLc9ADpME3RRWR4she4A1h4/EYzi/2RMr5C88MeIJhbHPZAAAAAElFTkSuQmCC" alt="playstore" loading="lazy">
+                <img src="data:image/png;base64,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" alt="Google Play" loading="lazy">
+            </a>
+        </div>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
