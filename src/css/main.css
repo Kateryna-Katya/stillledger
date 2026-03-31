@@ -1,9 +1,9 @@
 .home-section{
     background-image: url("/img/home/mob.png");
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top 20px center;
     background-size: cover;
-    height: 812px;
+    height: 800px;
 }
 .home-container{
     position: relative;
@@ -19,7 +19,7 @@ position: absolute;
             height: 219px;
             padding: 28px 24px;
 left: 0;
-top: 60%;
+top: 61%;
 display: flex;
 flex-direction: column;
 align-items: center;
