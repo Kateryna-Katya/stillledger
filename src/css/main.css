@@ -200,3 +200,28 @@ height: 680px;
 line-height: 1.5;
 }
 }
+/* Why Play Bounty Match */
+.why-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.why-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: left;
+}
+.why-title{
+    text-align: left;
+}
+@media only screen and (min-width: 1440px) {
+ .why-container{
+    flex-direction: row-reverse;
+    gap: 64px;
+ }
+ .why-wrapper{
+    width: 600px;
+ }
+}
