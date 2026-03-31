@@ -365,7 +365,50 @@ background: #126c40;
         margin-top: -1px;
     }
 
-    .mob {
-        display: none;
-    }
+}
+/* Contact */
+.contact-section{
+    background: #fdf8f4;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.contact-container{
+    background-image: url("/img/contact/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.contact-wrapper{
+    width: 343px;
+        height: 326px;
+        padding-top: 102px;
+        padding-bottom: 102px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.contact-link{
+    box-shadow: 8px 8px 16px 0 rgba(167, 167, 167, 0.16);
+        background: #ffa230;
+border-radius: 16px;
+    padding: 8px 24px;
+    width: 343px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+color: #fff;
+}
+@media only screen and (min-width: 1440px) {
+  .contact-container{
+    background-image: url("/img/contact/desk.png");
+    background-size: contain;
+  }
+  .contact-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-link{
+    width: 414px;
+  }
 }
