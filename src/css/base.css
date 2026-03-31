@@ -13,7 +13,13 @@ h2{
     line-height: 1.12;
     text-align: center;
     color: #0e5a21;
+    margin-bottom: 16px;
 }
 @media only screen and (min-width: 1440px) {
-  
+body{
+font-size: 26px;
+}
+h2{
+  font-size: 52px;
+}
 }

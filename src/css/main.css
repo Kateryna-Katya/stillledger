@@ -85,3 +85,26 @@ background: linear-gradient(180deg, #ffb700 0%, #df7b00 100%);
         height: 65px;
   }
 }
+/* About the Game */
+.about-wrapper{
+background-image: url("/img/about/mob.png");
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+padding: 64px 16px 165px;
+
+}
+.about-container{
+    padding-top: 80px;
+}
+@media only screen and (min-width: 1440px) {
+.about-container {
+        padding-top: 120px;
+    }
+.about-wrapper {
+    background-image: url("/img/about/desk.png");
+    padding: 64px 224px;
+width: 1312px;
+    height: 418px;
+}
+}
